@@ -2,7 +2,7 @@
 # AppsTract
 
   
-## Submitted By: Team Team-Name*
+## Submitted By: Peak Performers*
 
 **Team Members:**
 - Rahul C
@@ -10,27 +10,36 @@
 - Srinivasa Raghavan S
 
 ## IDEA or PROBLEM STATEMENT
-These few lines gives a small gist of  the problem statement we are trying to solve and the frameworks have used to implement the project. (10-50 lines)
+We had to make an UI for a microblogging site using figma and convert that to an app using android studio.
 
 ## UI DESIGN SUBMISSION*
-Software used: Adobe/Figma/Framer/Sketch
+Software used: Figma
 
 #### Links for the submission: 
- - (**Required**) A public link to the design file 
-	 (or)
-	Push the design source file into the "/UI-Design" directory.
--  (**Optional**) A youtube video link explaining your prototype
+ - https://youtu.be/5ImZk1MpDNE
+ - https://github.com/Rahul-12/AppsTrack
+ - https://www.figma.com/proto/O7mOwps1G4ISte3wsl0OV6/AppsTract?node-id=610%3A145&viewport=2872%2C915%2C0.4133845567703247&scaling=scale-down
 
 ### Write-up on the approach taken for UI design* (required)
 ---
-A small write up on the approach taken to implement the User interface of the application. This can include the features you would consider will be beneficial to the user, importance of the color themes chosen, how your app would stand out etc. (50-100 words)
+We the Peak Performers have made a microblogging mobile UI.
+The app has been named Appstract. We have included several features of figma which we will describe in parts.
+	We first have a login page which will guide us to the home page. In the home page we have features like horizontal and vertical scrolling. We have added feature of displaying stories which works on tap and is moved around using drag overlay.
+We have a task bar which guides us to other pages like messages, profile, settings , discover .In the message page we have several listed contacts which can be viewed in two ways.
+1) We can click on the names and text them.
+2) We can click on the pictures and view their profiles (overlay ,navigate and swapped with used)
+We have included themes and pictures in discover page which can navigate us to other pages.
+We have a profile page that displays user info.
+In the settings page we have details of the developers.
+We have used logout and back buttons to complete the UI and we also have added gifs and heart like buttons to make it more interactive for the user.
+WE HOPE YOU WOULD LIKE OUR UI.
 
 
 ## APP DEV SUBMISSION*
-Language/framework used: Java/Kotlin/Flutter/React Native/Swift
+Language/framework used: Java
 
 **Compulsary Requirements:**
-- An Youtube video link explaining all the features of the developed application : < link to demo here >
+- An Youtube video link explaining all the features of the developed application : https://youtu.be/5ImZk1MpDNE
 - The apk of the application is in the root directory of this repository.
 - Source code for your entire application should be in the "/App Development" directory
 
