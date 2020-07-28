@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:padding="20dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:background="#222222"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/post"
+            android:layout_below="@+id/descriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <ImageView
+        android:id="@+id/imageIv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageIv"
+            android:text="Title"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTv"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imageIv"
+            android:text="Description"
+            android:textColor="#A8A8A8"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="19 Comments"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/likes"
+
+            android:textColor="#A8A8A8" />
+        <TextView
+            android:id="@+id/likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:text="100 likes"
+            android:textColor="#A8A8A8" />
+        <TextView
+            android:id="@+id/shared"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toEndOf="@+id/comments"
+            android:text="7 shared"
+            android:textColor="#A8A8A8" />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
